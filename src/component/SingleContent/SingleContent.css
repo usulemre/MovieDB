@@ -1,0 +1,44 @@
+.media{
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    padding: 5px;
+    margin: 5px 0;
+    background-color: #282c34;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    position: relative;
+}
+@media(max-width:550px){
+    .media{
+        width: 46%;
+    }
+}
+
+.media:hover{
+    background-color: white;
+    color: black;
+}
+.poster{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.title{
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px 0;
+}
+.sunTitle{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+}
